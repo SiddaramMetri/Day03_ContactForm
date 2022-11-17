@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html,body{
+            background-color: bisque;
+            
+        }
+
+        h1 {
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <h1>
+                <hr>Contact Form
+                <hr>
+            </h1>
+
+            <fieldset>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+
+                <label for="lname">Mobile Number</label>
+                <input type="text" id="Mnumber" name="number" placeholder="Your Mobile Number.." />
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject.." />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message" style="height:150px"></textarea>
+            </fieldset>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>
